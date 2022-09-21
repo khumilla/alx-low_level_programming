@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcpy - copy string pointed to by src
+ * _strcpy - copy string pointed to by src
  * description - strcpy function
  * @dest: destination
  * @src: source code
