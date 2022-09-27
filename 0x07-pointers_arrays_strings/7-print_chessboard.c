@@ -8,13 +8,13 @@
 
 void print_chessboard(char (*a)[8])
 {
-	int chess, board;
+	int chindex; 
+	int bindex;
 
-	for (int chess = 0; a[chess][7]; chess++)
+	for (; a[chindex][7]; chindex++)
 	{
-		for (board = 0; board < 8; board++)
-			_putchar(a[chess][board]);
-
-		_putchar('\n');
+		for (; bindex < 8; bindex++)
+			_putchar(a[chindex][bindex]);
 	}
+		_putchar('\n');
 }
