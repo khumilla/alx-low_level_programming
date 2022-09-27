@@ -3,8 +3,8 @@
 /**
  * _strspn - function that gets the length of prefix of substring
  * @s: input bytes
- * @accept:: input s
- * Return: number of byte in s
+ * @accept:: prefix being measured
+ * Return: number of byte in s from accept
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -21,7 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 				n++
 				break;
 		}
-			else if (accept[r + 1] == '\0')
+		else if (accept[r + 1] == '\0')
 			return (n);
 		}
 		s++;
