@@ -5,7 +5,7 @@
  * alloc_grid - pointer to twon dimensional array of integers
  * @width: width of the array
  * @height: height of the array
- * 
+ *
  * Return: pointer of an array
  * NULL on failure
  * if height or width are 0 or - return NULL
