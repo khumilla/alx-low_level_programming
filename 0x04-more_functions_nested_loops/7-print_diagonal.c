@@ -1,24 +1,23 @@
 #include "main.h"
-
 /**
- * print_diagonal - draw a diagonal line with \
- * @n - number of slashes to get line
- * Return: a diagonal line
+ * print_diagonal - prints diagonal stuff
+ *
+ * @n: integer to set diagonal
  */
-
 void print_diagonal(int n)
 {
-        int line, space;
+	int i;
+	int j;
 
-        if (n <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for (line = 0; line < n; line++)
+		for (i = 0; i < n; i++)
 		{
-			for (space = 0; space < line; space++)
+			for (j = 0; j < i; j++)
 			{
 				_putchar(' ');
 			}
