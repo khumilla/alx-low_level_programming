@@ -6,7 +6,7 @@
  * @index: index of the node to return to
  *
  * Return: address to the node on SUCCESS
- * 	NULL if fail.
+ * NULL if fail.
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
